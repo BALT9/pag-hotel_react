@@ -24,8 +24,8 @@ function About(){
                         </div>
                     </div>
                     <div className={abo.caja}>
-                        <img src="/images/seccion2.jpg" alt="" className={abo.ima1} />
-                        <img src="/images/seccion2-1.jpg" alt=""  className={abo.ima2} />
+                        <img src="https://z.cdrst.com/foto/hotel-sf/4bad2/granderesp/espinas-hotel-general-d11af18.jpg" alt="" className={abo.ima1} />
+                        <img src="https://www.ahstatic.com/photos/b5i9_ho_00_p_1024x768.jpg" alt=""  className={abo.ima2} />
                     </div>
                 </div>
             </div>

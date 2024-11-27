@@ -21,13 +21,13 @@ function Spaces() {
                 </div>
                 <div className={spa.cont_gallery}>
                     <div className={spa.images}>
-                        <img src="/images/seccion2-1.jpg" alt="" />
+                        <img src="https://www.ticasino.com/uploads/_800xAUTO_crop_center-center_none/Hotel_Double_Queen_1200X800.jpg" alt="" />
                     </div>
                     <div className={spa.images}>
-                        <img src="/images/seccion2.jpg" alt="" />
+                        <img src="https://www.ticasino.com/uploads/_800xAUTO_crop_center-center_none/Hotel_Double_Queen_1200X800.jpg" alt="" />
                     </div>
                     <div className={spa.images}>
-                        <img src="/images/seccion2-1.jpg" alt="" />
+                        <img src="https://www.ticasino.com/uploads/_800xAUTO_crop_center-center_none/Hotel_Double_Queen_1200X800.jpg" alt="" />
                     </div>
                 </div>
             </div>

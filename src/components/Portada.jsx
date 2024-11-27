@@ -10,7 +10,7 @@ function Portada(){
     return(
         <>
             <div className={port.container_port}>
-                <img src="/images/portada.webp" alt="" />
+                <img src="https://i0.wp.com/amenitiz.com/wp-content/uploads/2022/10/dbnsfzkttcktgyk78guu.jpg?fit=2048%2C1365&ssl=1" alt="" />
                 <div className={port.overlay}></div>  {/* Capa oscura */}
                 
                 <div className={port.menu} onClick={menuIcono}>

@@ -23,27 +23,27 @@ function Our(){
                 <div className={our.galery}>
                     <div className={`${our.ima} ${our.ima1}`}>
                         <h3>$300/night</h3>
-                        <img src="./images/seccion2.jpg" alt="" />
+                        <img src="https://assets.hrewards.com/assets/SHR_Hamburg_rooms_Standard_King_1_d5356d0cd0.jpg" alt="" />
                         <p>Master Room</p>
                     </div>
                     <div className={`${our.ima} ${our.ima2}`}>
                         <h3>$300/night</h3>
-                        <img src="./images/seccion2.jpg" alt="" />
+                        <img src="https://assets.hrewards.com/assets/SHR_Hamburg_rooms_Standard_King_1_d5356d0cd0.jpg" alt="" />
                         <p>Master Room</p>
                     </div>
                     <div className={`${our.ima} ${our.ima3}`}>
                         <h3>$300/night</h3>
-                        <img src="./images/seccion2.jpg" alt="" />
+                        <img src="https://assets.hrewards.com/assets/SHR_Hamburg_rooms_Standard_King_1_d5356d0cd0.jpg" alt="" />
                         <p>Master Room</p>
                     </div>
                     <div className={`${our.ima} ${our.ima4}`}>
                         <h3>$300/night</h3>
-                        <img src="./images/seccion2.jpg" alt="" />
+                        <img src="https://assets.hrewards.com/assets/SHR_Hamburg_rooms_Standard_King_1_d5356d0cd0.jpg" alt="" />
                         <p>Master Room</p>
                     </div>
                     <div className={`${our.ima} ${our.ima5}`}>
                         <h3>$300/night</h3>
-                        <img src="./images/seccion2.jpg" alt="" />
+                        <img src="https://assets.hrewards.com/assets/SHR_Hamburg_rooms_Standard_King_1_d5356d0cd0.jpg" alt="" />
                         <p>Master Room</p>
                     </div>
                 </div>
