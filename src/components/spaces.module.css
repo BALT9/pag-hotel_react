@@ -1,0 +1,129 @@
+.container{
+    padding: 20px 50px;
+}
+.caja .text{
+    width: 70%;
+}
+.caja .text .text1{
+    display: flex;
+    align-items: center;
+}
+.caja .text .text1 .linea{
+    width: 100px;
+    height: 3px;
+    background-color: var(--color2);
+}
+.caja .text .text1 .rombo{
+    width: 15px;
+    height: 15px;
+    background-color: var(--color2);
+    transform: rotate(45deg);
+}
+.caja .text .text1 h2{
+    color: var(--color2);
+    font-family: var(--font2);
+    padding-right: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+.caja .text .text2 h1{
+    color: #000;
+    font-family: var(--font2);
+    margin: 0;
+    padding-right: 5px;
+    font-size: 35px;
+}
+.caja .text .text3 p{
+    padding-top: 20px;
+    color: #000;
+    font-family: var(--font1);
+    margin: 0;
+    font-size: 20px;
+}
+
+/* cont_gallery */
+
+.cont_gallery{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    gap: 5px;
+}
+.cont_gallery .images{
+    width: 33%;
+    height: 450px;
+}
+.cont_gallery .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width:995px){
+    .caja .text{
+        width: 80%;
+    }
+    .cont_gallery .images{
+        width: 32%;
+        height: 400px;
+    }
+
+}
+@media screen and (max-width: 770px){
+    .container{
+        padding: 20px ;
+    }
+    .caja .text .text1 .linea{
+        width: 80px;
+        height: 2px;
+    }
+    .caja .text .text1 .rombo{
+        width: 10px;
+        height: 10px;
+    }
+    .caja .text .text1 h2{
+        padding-right: 3px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .caja .text .text2 h1{
+        font-size: 25px;
+    }
+    .caja .text .text3 p{
+        padding-top: 18px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 600px){
+    .caja .text{
+        width: 90%;
+    }
+    .cont_gallery{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0;
+        gap: 5px;
+    }
+    .cont_gallery .images{
+        width: 200px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 400px){
+    .caja .text{
+        width: 90%;
+    }
+    .cont_gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 10px 0;
+        gap: 5px;
+    }
+    .cont_gallery .images{
+        width: 100%;
+        height: 300px;
+    }
+
+}

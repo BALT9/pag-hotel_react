@@ -1,0 +1,10 @@
+:root {
+    --color1: #683e14;
+    /* Color para el fondo del tema claro */
+    --color2: #713d1d;
+    /* Color para el fondo del tema oscuro */
+
+    --font1: "Roboto", serif;
+    --font2: "Playfair Display", serif;
+    ;
+}

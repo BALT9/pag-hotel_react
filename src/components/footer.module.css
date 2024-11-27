@@ -1,0 +1,86 @@
+.container{
+    background-color: var(--color1);
+    color: #fff;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    padding: 10px 20px;
+}
+.contact h1{
+    font-family: var(--font2);
+    font-weight: 300;
+    font-size: 25px;
+    margin: 0;
+}
+.contact i{
+    font-size: 30px;
+    padding: 10px 5px;
+}
+.contact p{
+    font-size: 18px;
+    margin: 0;
+    font-family: var(--font2);
+}
+
+.info{
+    display: flex;
+    padding: 10px 20px;
+}
+.info h1{
+    font-size: 18px;
+    font-family: var(--font1);
+    padding: 0 10px;
+}
+.info p{
+    padding: 0 10px;
+    font-family: var(--font1);
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5px 0;
+}
+
+@media screen and (max-width:995px){
+
+}
+@media screen and (max-width:770px){
+    .contact h1{
+        font-size: 20px;
+    }
+    .contact p{
+        font-size: 16px;
+    }
+    .info h1{
+        font-size: 16px;
+    }
+    .info p{
+        font-size: 13px;
+    }
+}   
+@media screen and (max-width:600px){
+    .contact h1{
+        font-size: 15px;
+    }
+    .contact p{
+        font-size: 14px;
+    }
+    .info h1{
+        font-size: 13px;
+    }
+    .info p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:400px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info{
+        display: flex;
+        padding: 10px 20px;
+    }
+}

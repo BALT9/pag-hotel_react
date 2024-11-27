@@ -1,0 +1,183 @@
+.container_abo{
+    margin-top: 60px;
+    overflow: hidden;
+}
+.cont{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.caja{
+    position: relative;
+    /* width: 50%; */
+    padding: 0 20px;
+}
+
+.caja .text .text1{
+    display: flex;
+    align-items: center;
+}
+.caja .text .text1 .linea{
+    width: 100px;
+    height: 3px;
+    background-color: var(--color2);
+}
+.caja .text .text1 .rombo{
+    width: 15px;
+    height: 15px;
+    background-color: var(--color2);
+    transform: rotate(45deg);
+}
+.caja .text .text1 h2{
+    color: var(--color2);
+    font-family: var(--font2);
+    padding-right: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+.caja .text .text2 h1{
+    color: #000;
+    font-family: var(--font2);
+    margin: 0;
+    padding-right: 5px;
+    font-size: 35px;
+}
+.caja .text .text3 p{
+    padding-top: 20px;
+    color: #000;
+    font-family: var(--font1);
+    margin: 0;
+    font-size: 20px;
+}
+.caja .text .textButon button{
+    margin: 30px 0;
+    width: 35%;
+    background-color: var(--color2);
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: var(--font1);
+}
+
+.caja .ima1{
+    width: 400px;
+    height: 550px;
+    padding: 0 100px;
+}
+.caja .ima2{
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    width: 300px;
+    height: 350px;
+}
+
+@media screen and (max-width:995px) {
+    .caja .ima1{
+        width: 300px;
+        height: 500px;
+        padding: 0 60px;
+        margin-left: 50px;
+    }
+    .caja .ima2{
+        width: 250px;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .cont{
+        padding: 10px;
+    }
+    .caja{
+        /* width: 50%; */
+        padding: 0 10px;
+    }
+    .caja .text .text1 .linea{
+        width: 80px;
+        height: 2px;
+    }
+    .caja .text .text1 .rombo{
+        width: 10px;
+        height: 10px;
+    }
+    .caja .text .text1 h2{
+        padding-right: 3px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .caja .text .text2 h1{
+        font-size: 25px;
+    }
+    .caja .text .text3 p{
+        padding-top: 18px;
+        font-size: 15px;
+    }
+    .caja .text .textButon button{
+        margin: 25px 0;
+        width: 70%;
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+    
+    .caja .ima1{
+        width: 250px;
+        height: 300px;
+        padding: 0 80px;
+    }
+    .caja .ima2{
+        width: 200px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cont{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .caja{
+        width: 90%;
+    }
+    .caja .ima1{
+        padding: 0 20px;
+        width: 250px;
+        height: 300px;
+        margin-left: 0px;
+        object-fit: cover;
+    }
+    
+    .caja .ima2{
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .caja .ima1{
+        padding: 10px 0;
+        width: 230px;
+        height: 300px;
+        margin-left: 0px;
+        object-fit: cover;
+    }
+    
+    .caja .ima2{
+        position: absolute;
+        top:25%;
+        left: 45%;
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+    }
+}
